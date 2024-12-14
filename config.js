@@ -30,13 +30,6 @@ module.exports = {
 
 *📍│ch4mi | ofc 🐭💗*
 ━━━━━━━━━━━━━━━━━━━━━━━━
-> _*📍│ᴏᴡɴᴇʀ :- chamindu lakshan*_
-
-> _*📍│ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ :- 0703973470*_
-
-> _*📍│ꜰᴏʀᴍ :- balangoda*_
-
-━━━━━━━━━━━━━━━━━━━━━━━━
 *~🧸⃕͜⃝🔥⃞̶͟͞♥️ ||𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗕𝗢𝗧|| ♥️̶͟͞⃞🔥⃝⃕͜🧸~*
 ━━━━━━━━━━━━━━━━━━━━━━━━
 > *📍ʙᴏᴛ ᴏɴʟɪɴᴇ│ (.alive)*
@@ -51,8 +44,7 @@ module.exports = {
 ━━━━━━━━━━━━━━━━━━━━━━━━
 > *Give your love to someone who appreciates it 🧠*
 ━━━━━━━━━━━━━━━━━━━━━━━━
-*🧸⃕͜⃝🔥⃞̶͟͞♥️||𝗪𝗔𝗜𝗧𝗜𝗡𝗚 𝗙𝗢𝗥 𝗬𝗢𝗨||♥️̶͟͞⃞🔥⃝⃕͜🧸*
-━━━━━━━━━━━━━━━━━━━━━━━━  \n Uptime: {uptime}",
+*🧸⃕͜⃝🔥⃞̶͟͞♥️||𝗪𝗔𝗜𝗧𝗜𝗡𝗚 𝗙𝗢𝗥 𝗬𝗢𝗨||♥️̶͟͞⃞🔥⃝ \n Uptime: {uptime}",
     BLOCK_CHAT: process.env.BLOCK_CHAT || '',
     PM_ANTISPAM: convertToBool(process.env.PM_ANTISPAM) || '',
     ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE) || false,
