@@ -24,8 +24,35 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './bot.db' : process.env
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 if (!(process.env.SESSION || process.env.SESSION_ID)) throw new Error("No session found, add session before starting bot")
 module.exports = {
-    VERSION: 'v4.0.0',
-    ALIVE: process.env.ALIVE || "https://i.imgur.com/KCnoMM2.jpg Hey {sender}, I'm alive \n Uptime: {uptime}",
+    VERSION: 'v1.0.0',
+    ALIVE: process.env.ALIVE || "https://i.ibb.co/bKBDBcj/f69aa43a2d63b952.jpg Hey {sender}, *📍│ආ පැටියෝ* 😑
+
+
+*📍│ch4mi | ofc 🐭💗*
+━━━━━━━━━━━━━━━━━━━━━━━━
+> _*📍│ᴏᴡɴᴇʀ :- chamindu lakshan*_
+
+> _*📍│ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ :- 0703973470*_
+
+> _*📍│ꜰᴏʀᴍ :- balangoda*_
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+*~🧸⃕͜⃝🔥⃞̶͟͞♥️ ||𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗕𝗢𝗧|| ♥️̶͟͞⃞🔥⃝⃕͜🧸~*
+━━━━━━━━━━━━━━━━━━━━━━━━
+> *📍ʙᴏᴛ ᴏɴʟɪɴᴇ│ (.alive)*
+> *📍ᴅᴏᴡɴʟᴏᴅ ᴍᴇɴᴜ│ (.menu)*
+> *📍ᴍᴘ3 ꜱᴏɴɢ│ (.song)*
+> *📍ᴍᴘ4 ᴠɪᴅᴇᴏ│ (.video)*
+> *📍ꜰᴀᴄᴇʙᴏᴏᴋ ᴠɪᴅᴇᴏ│ (.fb linke)*
+> *📍ᴛɪᴋ ᴛᴏᴋ ᴠɪᴅᴇᴏ│ (.TikTok linke)*
+> *📍ɢᴏᴏɢʟᴇ ᴘʜᴏᴛᴏ│ (.img)*
+━━━━━━━━━━━━━━━━━━━━━━━━
+*~📍🫀ch4mi whatsapp bot🫀📍~*
+━━━━━━━━━━━━━━━━━━━━━━━━
+> *Give your love to someone who appreciates it 🧠*
+━━━━━━━━━━━━━━━━━━━━━━━━
+*🧸⃕͜⃝🔥⃞̶͟͞♥️||𝗪𝗔𝗜𝗧𝗜𝗡𝗚 𝗙𝗢𝗥 𝗬𝗢𝗨||♥️̶͟͞⃞🔥⃝⃕͜🧸*
+━━━━━━━━━━━━━━━━━━━━━━━━  \n Uptime: {uptime}",
     BLOCK_CHAT: process.env.BLOCK_CHAT || '',
     PM_ANTISPAM: convertToBool(process.env.PM_ANTISPAM) || '',
     ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE) || false,
